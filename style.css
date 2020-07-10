@@ -3,10 +3,11 @@ body {
     line-height: 1.8;
     color: #818181;
   }
+ 
   h2 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #303030;
+    color: #ffffff;
     font-weight: 600;
     margin-bottom: 30px;
   }
@@ -16,20 +17,19 @@ body {
     color: #303030;
     font-weight: 400;
     margin-bottom: 30px;
-  }  
+  }
   .jumbotron {
     background-color: #ffffff;
     color: #fff;
     padding: 25px 0px 15px 0px;
-    font-family: Montserrat, sans-serif;
-
+    font-family: Montserrat, sans-serif,"微軟正黑體";
   }
   .container-fluid {
     padding: 60px 50px;
   }
   .bg-grey {
     color: #fff;
-    background-color: #636363;
+    background-color: #272525;
   }
   .logo-small {
     color: #47c7a1;
@@ -49,16 +49,7 @@ body {
     height: 100%;
     margin-bottom: 10px;
   }
-  .carousel-control.right, .carousel-control.left {
-    background-image: none;
-    color: #f4511e;
-  }
-  .carousel-indicators li {
-    border-color: #f4511e;
-  }
-  .carousel-indicators li.active {
-    background-color: #f4511e;
-  }
+
   .item h4 {
     font-size: 19px;
     line-height: 1.375em;
@@ -77,11 +68,8 @@ body {
   .panel:hover {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
-  .panel-footer .btn:hover {
-    border: 1px solid #f4511e;
-    background-color: #fff !important;
-    color: #f4511e;
-  }
+
+  
   .panel-heading {
     color: #fff !important;
     background-color: #54b5e2 !important;
@@ -124,17 +112,17 @@ body {
     color: rgb(70, 68, 68) !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #6bbceb !important;
-    background-color: #fff !important;
+      color: rgb(255, 255, 255) !important;
+    background-color: rgb(59, 59, 59) !important;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
   }
   footer .glyphicon {
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 20px;
-    color: #2f1dd3;
+    color: #fcfcfc;
   }
   .slideanim {visibility:hidden;}
   .slide {
@@ -154,21 +142,21 @@ body {
   @keyframes slide {
     0% {
       opacity: 0;
-      transform: translateX(70%);
+      transform: translateY(70%);
     } 
     100% {
       opacity: 1;
-      transform: translateX(0%);
+      transform: translateY(0%);
     }
   }
   @-webkit-keyframes slide {
     0% {
       opacity: 0;
-      -webkit-transform: translateX(70%);
+      -webkit-transform: translateY(70%);
     } 
     100% {
       opacity: 1;
-      -webkit-transform: translateX(0%);
+      -webkit-transform: translateY(0%);
     }
   }
   @keyframes haha {
